@@ -1,12 +1,31 @@
-# React + Vite
+# React Frontend + Vite – Prueba Tecnica Terceros
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Esta aplicación en React permite consultar y editar la información de terceros a partir de su Documento de identidad o Nit. Incluye validación de formularios, manejo de estados de carga y despliegue de mensajes de éxito o error.
 
-Currently, two official plugins are available:
+## Características
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Búsqueda de terceros por NIT con validación en el cliente  
+- Visualización y edición de datos del tercero  
+- Feedback interactivo durante operaciones de lectura y escritura  
+- Componentes reutilizables y estado gestionado con Hooks  
 
-## Expanding the ESLint configuration
+## Enlace al Backend
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+La aplicación consume la API REST del proyecto backend Java + SpringBoot. Este se encuentra alojado en el siguiente repositorio:
+
+[Backend – Prueba Tecnica Terceros](https://github.com/rabothia/prueba-tecnica-back)
+
+## Tecnologías
+
+- React (Hooks)  
+- Fetch API para llamadas HTTP  
+- CSS   
+
+## Instalación y Ejecución
+
+1. Clonar este repositorio:  
+   ```bash
+   git clone https://github.com/rabothia/prueba-tecnica-front
+2. cd nombreCarpeta
+3. npm install
+4. npm run dev
